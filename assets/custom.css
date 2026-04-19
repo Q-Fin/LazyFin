@@ -1,0 +1,256 @@
+/* ============================================================
+   AlephLens-Toolkit  |  custom.css
+   ============================================================ */
+
+/* ── Typography & base ─────────────────────────────────────── */
+body {
+  font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+  font-size: 14px;
+  background-color: #f0f2f5;
+  color: #212529;
+}
+
+/* ── Top header bar ────────────────────────────────────────── */
+.app-header {
+  background: linear-gradient(135deg, #0d47a1 0%, #1565c0 60%, #1976d2 100%);
+  color: #fff;
+  padding: 14px 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.25);
+  margin-bottom: 0;
+}
+
+.app-header h4 {
+  font-weight: 700;
+  letter-spacing: .5px;
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.app-header .subtitle {
+  font-size: .78rem;
+  opacity: .75;
+  margin: 0;
+}
+
+/* ── Main tab strip ────────────────────────────────────────── */
+.main-tabs .nav-link {
+  font-weight: 600;
+  color: #546e7a;
+  border-radius: 0 !important;
+  border-bottom: 3px solid transparent;
+  padding: 10px 20px;
+  transition: color .15s, border-color .15s;
+}
+
+.main-tabs .nav-link:hover {
+  color: #1565c0;
+  border-bottom-color: #90caf9;
+}
+
+.main-tabs .nav-link.active {
+  color: #1565c0 !important;
+  border-bottom: 3px solid #1565c0 !important;
+  background: transparent !important;
+}
+
+/* ── Control panel (left column) ───────────────────────────── */
+.control-panel {
+  background: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 16px 14px;
+  position: sticky;
+  top: 0;
+  /* custom scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #b0bec5 transparent;
+}
+
+.control-panel::-webkit-scrollbar { width: 5px; }
+.control-panel::-webkit-scrollbar-track { background: transparent; }
+.control-panel::-webkit-scrollbar-thumb { background: #b0bec5; border-radius: 4px; }
+
+/* ── Section labels in control panel ──────────────────────── */
+.ctrl-label {
+  font-size: .72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  color: #1565c0;
+  margin: 12px 0 3px 0;
+}
+
+.ctrl-divider {
+  border-top: 1px solid #e0e0e0;
+  margin: 10px 0 8px 0;
+}
+
+/* ── Output panel (right column) ───────────────────────────── */
+.output-panel {
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 14px 16px;
+  scrollbar-width: thin;
+  scrollbar-color: #b0bec5 transparent;
+}
+
+.output-panel::-webkit-scrollbar { width: 5px; }
+.output-panel::-webkit-scrollbar-track { background: transparent; }
+.output-panel::-webkit-scrollbar-thumb { background: #b0bec5; border-radius: 4px; }
+
+/* ── Section cards ─────────────────────────────────────────── */
+.section-card {
+  background: #ffffff;
+  border: 1px solid #e8ecef;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.06);
+  overflow: hidden;
+}
+
+.section-card-header {
+  background: #f5f7fb;
+  border-bottom: 1px solid #e8ecef;
+  padding: 9px 14px;
+  font-size: .82rem;
+  font-weight: 700;
+  color: #1565c0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.section-card-header .icon {
+  font-size: 1rem;
+}
+
+.section-card-body {
+  padding: 8px 6px 4px 6px;
+}
+
+/* ── Run button ─────────────────────────────────────────────── */
+.run-btn {
+  background: linear-gradient(135deg, #1565c0, #1976d2) !important;
+  border: none !important;
+  font-weight: 700 !important;
+  letter-spacing: .4px !important;
+  padding: 9px 20px !important;
+  width: 100%;
+  transition: opacity .15s, transform .1s !important;
+  box-shadow: 0 2px 6px rgba(21,101,192,.35) !important;
+}
+
+.run-btn:hover {
+  opacity: .9 !important;
+  transform: translateY(-1px) !important;
+}
+
+.run-btn:active {
+  transform: translateY(0) !important;
+}
+
+/* ── Preset date buttons ────────────────────────────────────── */
+.preset-btn {
+  font-size: .72rem !important;
+  padding: 2px 7px !important;
+  font-weight: 600 !important;
+}
+
+/* ── Status alert ───────────────────────────────────────────── */
+.status-alert {
+  font-size: .82rem;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+/* ── Strategy param panels ──────────────────────────────────── */
+.strategy-params {
+  background: #f8f9ff;
+  border: 1px dashed #90caf9;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-top: 6px;
+}
+
+/* ── DataTable overrides ────────────────────────────────────── */
+.dash-spreadsheet-container .dash-spreadsheet-inner table {
+  font-size: .78rem;
+}
+
+.dash-spreadsheet-container .dash-header {
+  background-color: #e8f0fe !important;
+  color: #1565c0 !important;
+  font-weight: 700 !important;
+  font-size: .76rem !important;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+}
+
+.dash-spreadsheet-container .dash-cell {
+  font-size: .78rem !important;
+}
+
+/* ── Checklist / Radio items ────────────────────────────────── */
+.dbc .form-check-label {
+  font-size: .82rem;
+}
+
+/* ── Plotly graph margins ───────────────────────────────────── */
+.js-plotly-plot {
+  border-radius: 4px;
+}
+
+/* ── Loading spinner ─────────────────────────────────────────── */
+._dash-loading {
+  min-height: 120px;
+}
+
+/* ── Tab content area ───────────────────────────────────────── */
+.tab-content-area {
+  display: flex;
+  height: calc(100vh - 110px);
+  overflow: hidden;
+}
+
+/* ── Stress info box ────────────────────────────────────────── */
+.stress-info {
+  background: #e3f2fd;
+  border-left: 4px solid #1565c0;
+  padding: 10px 14px;
+  border-radius: 0 6px 6px 0;
+  font-size: .82rem;
+  color: #1a237e;
+  margin-bottom: 12px;
+}
+
+/* ── Warning notice ─────────────────────────────────────────── */
+.prereq-notice {
+  background: #fff8e1;
+  border-left: 4px solid #ffa000;
+  padding: 8px 12px;
+  border-radius: 0 6px 6px 0;
+  font-size: .8rem;
+  color: #6d4c00;
+  margin-bottom: 10px;
+}
+
+/* ── Scrollable table wrapper ───────────────────────────────── */
+.table-scroll {
+  overflow-x: auto;
+}
+
+/* ── Slider track color ─────────────────────────────────────── */
+.rc-slider-track { background-color: #1565c0 !important; }
+.rc-slider-handle { border-color: #1565c0 !important; }
+
+/* ── Small helper text ──────────────────────────────────────── */
+.hint-text {
+  font-size: .72rem;
+  color: #78909c;
+  margin-top: 2px;
+  line-height: 1.3;
+}
