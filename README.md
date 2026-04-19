@@ -413,8 +413,8 @@ The following sequence illustrates a complete portfolio review session.
 ---
 
 <p align="center">
-  Developed by <a href="https://github.com/CMI-Dropout">CMI-Dropout</a><br><br>
-  <a href="https://github.com/CMI-Dropout">
-    <img src="https://avatars.githubusercontent.com/u/152863492" width="48" height="48" alt="CMI-Dropout" style="border-radius:50%">
+  Developed by <a href="https://github.com/Q-Fin">Q-Fin</a><br><br>
+  <a href="https://github.com/Q-Fin">
+    <img src="https://avatars.githubusercontent.com/u/152863492" width="48" height="48" alt="FinEn" style="border-radius:50%">
   </a>
 </p>
