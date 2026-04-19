@@ -247,6 +247,8 @@ lazyfin/
     ├── stress_testing.py           Factor-shock scenario computation and custom parser
     ├── visualization.py            Eleven Plotly figure builders (pure, no side effects)
     └── pipeline.py                 Five orchestration functions returning structured results
+
+NOTE: check_yfinance.ipynb is a separate file that does nothing in terms of contributing to LazyFin. Use it to make sure your tickers are indeed tracked in Yahoo Finance.
 ```
 ---
 
