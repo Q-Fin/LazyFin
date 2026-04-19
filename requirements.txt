@@ -1,0 +1,27 @@
+# AlephLens-Toolkit — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Python >= 3.10 required (uses X | Y union types in type hints)
+
+# ── Core data ───────────────────────────────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+yfinance>=0.2.36
+
+# ── Statistical / optimisation ───────────────────────────────────────────────
+scipy>=1.11
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+plotly>=5.18
+
+# ── Dash application ─────────────────────────────────────────────────────────
+dash>=2.14
+dash-bootstrap-components>=1.5
+
+# ── GARCH modelling (optional — GARCH tab only) ───────────────────────────────
+# pip install arch
+# arch>=6.0
+
+# ── Development / testing (not needed for production) ────────────────────────
+# pytest>=7.4
+# pytest-mock>=3.11
