@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://via.placeholder.com/460x200/0d47a1/ffffff?text=LazyFin">
-    <img src="https://via.placeholder.com/460x200/0d47a1/ffffff?text=LazyFin" alt="LazyFin" width="460">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Q-Fin/LazyFin/blob/main/assets/lazyfin_logo.png">
+    <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/lazyfin_logo.png" alt="LazyFin" width="660">
   </picture>
 </p>
 
@@ -95,64 +95,87 @@ The analytics layer follows original academic specifications rather than library
 ### VaR / CVaR — Return Distribution and Method Comparison
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=VaR+%2F+CVaR+Distribution+Chart" alt="VaR and CVaR" width="700"><br>
-  <sub>Multi-method VaR/CVaR overlay on the portfolio return histogram</sub>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/VaR-CVaR_1.png" alt="VaR and CVaR Distribution" width="700"><br>
+  <sub>Multi-method VaR/CVaR overlay on the portfolio return histogram</sub><br><br>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/VaR-CVaR_2.png" alt="Performance Metrics" width="700"><br>
+  <sub>Annualised metrics with configurable risk-free rate</sub>
 </p>
 
 ### Rolling VaR
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Rolling+VaR+Chart" alt="Rolling VaR" width="700"><br>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Rolling-VaR.png" alt="Rolling VaR" width="700"><br>
   <sub>Rolling historical and parametric VaR with daily return bar chart beneath</sub>
 </p>
 
 ### Markowitz Efficient Frontier
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Efficient+Frontier" alt="Efficient Frontier" width="700"><br>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Efficient-Frontier.png" alt="Efficient Frontier" width="700"><br>
   <sub>Dirichlet scatter coloured by Sharpe ratio; SLSQP-optimised minimum-variance and maximum-Sharpe portfolios</sub>
-</p>
-
-### Performance Metrics
-
-<p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Performance+Metrics+Table" alt="Performance Metrics" width="700"><br>
-  <sub>Annualised metrics with configurable risk-free rate</sub>
 </p>
 
 ### Correlation Heatmap
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Correlation+Heatmap" alt="Correlation Heatmap" width="700"><br>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Correlation-Heatmap.png" alt="Correlation Heatmap" width="700"><br>
   <sub>Annotated Pearson correlation matrix with adaptive font colouring</sub>
 </p>
 
 ### Benchmark Comparison
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Benchmark+Comparison" alt="Benchmark Comparison" width="700"><br>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/MDD-and-Benchmark.png" alt="Benchmark Comparison" width="700"><br>
   <sub>Cumulative wealth index and underwater drawdown versus a user-supplied benchmark</sub>
 </p>
 
 ### Technical Indicators
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Indicator+Chart+%E2%80%94+Price+Panel" alt="Indicators Price Panel" width="700">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Indicator+Chart+%E2%80%94+Oscillator+Panels" alt="Indicators Oscillator Panels" width="700"><br>
-  <sub>Candlestick with overlays (upper panel) and dedicated oscillator sub-panels (lower panel)</sub>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Indicators_1.png" alt="Technical Indicators (Screenshot 1)" width="700">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Indicators_2.png" alt="Technical Indicators (Screenshot 2)" width="700">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Indicators_3.png" alt="Technical Indicators (Screenshot 3)" width="700"><br>
+  <sub>Candlestick with overlays (upper panel) and dedicated oscillator sub-panels (lower panels)</sub>
+</p>
+
+### GARCH
+
+<p align="center">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/GARCH_1.png" alt="GARCH (Screenshot 1)" width="700">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/GARCH_2.png" alt="GARCH (Screenshot 2)" width="700"><br>
+  <sub>Adjustable GARCH simulations (Information criterion and other statistics available)</sub>
+</p>
+
+### Fama-French Model
+
+<p align="center">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/FF5.png" alt="FF-5" width="700"><br>
+  <sub>Adjustable Fama-French model (either with 3 or 5 factors for now)</sub>
 </p>
 
 ### Backtesting
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Backtest+Equity+and+Drawdown" alt="Backtest" width="700"><br>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Backtest_1.png" alt="Backtest (Screenshot 1)" width="700">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Backtest_2.png" alt="Backtest (Screenshot 2)" width="700"><br>
   <sub>Strategy equity curve vs buy-and-hold with entry/exit markers and underwater drawdown</sub>
+</p>
+
+### Walk-Forward
+
+<p align="center">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/WF_1.png" alt="Backtest (Screenshot 1)" width="700">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/WF_2.png" alt="Backtest (Screenshot 2)" width="700">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/WF_3.png" alt="Backtest (Screenshot 3)" width="700"><br>
+  <sub>Walk‑Forward Validation with Configurable Windows and Sharpe Metrics</sub>
 </p>
 
 ### Stress Testing
 
 <p align="center">
-  <img src="https://via.placeholder.com/700x400/1a1a2e/ffffff?text=Stress+Test+Scenario+Chart" alt="Stress Testing" width="700"><br>
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Stress-Test_1.png" alt="Stress Testing Configuration" width="350">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Stress-Test_2.png" alt="Stress Testing (Screenshot 1)" width="700">
+  <img src="https://github.com/Q-Fin/LazyFin/blob/main/assets/Stress-Test_3.png" alt="Stress Testing (Screenshot 2)" width="700"><br>
   <sub>Estimated 1-day portfolio impact across factor-shock scenarios</sub>
 </p>
 
@@ -232,8 +255,8 @@ lazyfin/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/lazyfin.git
-cd lazyfin
+git clone https://github.com/Q-Fin/LazyFin.git
+cd <Paste the path of your local folder here>
 ```
 
 ### 2. Create and activate a virtual environment
@@ -270,7 +293,7 @@ python app.py
 
 Open `http://127.0.0.1:8050` in a browser.
 
-### Production deployment
+### Production deployment (might be buggy, should be fixed soon)
 
 ```bash
 pip install gunicorn
@@ -328,15 +351,15 @@ The following sequence illustrates a complete portfolio review session.
    The symbols populate the tickers text field automatically.
 
 3. VaR / CVaR tab:
-   - Set date range to 2020-01-01 → today.
-   - Select Historical, Parametric, and Monte Carlo methods.
-   - Set alpha to 0.99, benchmark to SPY, FF model to FF5.
+   - Set date range to your choice → today.
+   - Select one or more from Historical, Parametric, Monte Carlo, and Cornish-Fisher methods.
+   - Set alpha (default 0.99), benchmark (default SPY), FF model (either 3 or 5).
    - Click Run Full Analysis.
    - Review the VaR comparison chart, efficient frontier, and FF attribution table.
    - Download the performance metrics CSV.
 
 4. Indicators tab:
-   - Set the same ticker (single asset) and a 3-year look-back.
+   - Set the same ticker (single asset) and a N-year look-back.
    - Select Bollinger Bands, RSI, MACD, and Volume.
    - Click Plot Indicators.
 
@@ -344,13 +367,13 @@ The following sequence illustrates a complete portfolio review session.
    - Select the same ticker.
    - Choose MACD strategy with default parameters.
    - Click Run Backtest to view in-sample results.
-   - Set train window 252 days, test window 63 days.
+   - Set train window X days, test window Y days.
    - Click Run Walk-Forward to see OOS Sharpe per fold.
 
 6. Stress Testing tab:
    - The FF regression from step 3 is already stored.
    - Click Run Stress Test to apply the seven built-in scenarios.
-   - Add a custom Bear Market scenario: Mkt-RF: -0.20, SMB: -0.05.
+   - Add a custom Bear Market scenario (For example Mkt-RF: -0.20, SMB: -0.05).
 
 ---
 
