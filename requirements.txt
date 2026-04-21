@@ -19,7 +19,7 @@ dash>=2.14
 dash-bootstrap-components>=1.5
 
 # ── GARCH modelling (optional — GARCH tab only) ───────────────────────────────
-# pip install arch
+pip install arch
 # arch>=6.0
 
 # ── Development / testing (not needed for production) ────────────────────────
